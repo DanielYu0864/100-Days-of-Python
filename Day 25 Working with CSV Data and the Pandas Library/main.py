@@ -33,10 +33,11 @@ while game_on:
         screen.textinput(title=f'{num_right}/50 State Correct', prompt="What's another state's name?")).lower()
 
     if answer_state == "exit":
-        missing_states = []
-        for state in states_list:
-            if state not in guess_list:
-                missing_states.append(state)
+        missing_states = [state for state in states_list if state not in guess_list]
+        # missing_states = []
+        # for state in states_list:
+        #     if state not in guess_list:
+        #         missing_states.append(state)
         new_data = pandas.DataFrame(missing_states)
         new_data.to_csv('missing_states_to_learn.csv')
         break

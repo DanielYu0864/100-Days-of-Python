@@ -56,12 +56,12 @@ while game_on:
     piano_keys = [a, b, c, d, e, f, g]
                 |  |  |  |  |  |  |  |
                 0  1  2  3  4  5  6  7
-    piano_keys[2:5] -> slicing it from position 2 to position 5 => [c, d, e]
-    piano_keys[2:] -> slicing it from index 2 to the end => [c, d, e, f, g]
-    piano_keys[:5] -> slicing it from start to the index 5 => [a, b, c, d, e]
-    piano_keys[2:5:2] -> slicing it from position 2 to position 5 every 2 items => [c, e]
-    piano_keys[::2] -> slicing while list by every 2 items => [a, c, e, g]
-    piano_keys[::-1] -> reverse while list => [g, f, e, d, c, b, a]
+    piano_keys[2:5] -> return the slicing it from position 2 to position 5 => [c, d, e]
+    piano_keys[2:] -> return the slicing it from index 2 to the end => [c, d, e, f, g]
+    piano_keys[:5] -> return the slicing it from start to the index 5 => [a, b, c, d, e]
+    piano_keys[2:5:2] -> return the slicing it from position 2 to position 5 every 2 items => [c, e]
+    piano_keys[::2] -> return the slicing while list by every 2 items => [a, c, e, g]
+    piano_keys[::-1] -> return the reverse while list => [g, f, e, d, c, b, a]
     
     * also works on tuple
     """
