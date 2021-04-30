@@ -25,3 +25,9 @@
 1. for study new language
 2. pick random word from the french_words.csv file
 3. save the new dict into the words_to_learn.csv file
+
+## Day 33: API Endpoints & API Parameters - ISS Overhead Notifier
+
+1. basic about api -> use requests package to get api
+2. the sample kanye-quotes app -> generate kanye quote whan the button clicked
+3. iss overhead notifier -> to send you a notification if iss cross over the sky
