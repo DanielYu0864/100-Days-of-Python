@@ -31,3 +31,10 @@
 1. basic about api -> use requests package to get api
 2. the sample kanye-quotes app -> generate kanye quote whan the button clicked
 3. iss overhead notifier -> to send you a notification if iss cross over the sky
+
+## Day 35: Keys, Authentication & Environment Variables Send SMS
+
+1. send text message to you if going to rain in 12 hour
+2. OpenWeatherMap: get weather info
+3. Twilio: send text message
+4. Pythonanywhere: store the server (run code every day at 7 am PST)
