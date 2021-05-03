@@ -38,3 +38,10 @@
 2. OpenWeatherMap: get weather info
 3. Twilio: send text message
 4. Pythonanywhere: store the server (run code every day at 7 am PST)
+
+## Day 36 Stock Trading News Alert Project
+
+1. send text message to you if Tesla stock price change up or down over 5 percent
+2. alphavantage: get close stock price
+3. newsapiL: get news about Tesla
+4. Twilio: send text message
