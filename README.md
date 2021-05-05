@@ -45,3 +45,8 @@
 2. alphavantage: get close stock price
 3. newsapiL: get news about Tesla
 4. Twilio: send text message
+
+## Day 37 Hapbit Tracking Project: API Post Requests & Headers
+
+1. pixela api
+2. api post, put, and delete
